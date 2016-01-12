@@ -1,0 +1,5 @@
+module CLibEvent [system] {
+    header "/usr/include/event2/event.h"
+    link "event"
+    export *
+}
